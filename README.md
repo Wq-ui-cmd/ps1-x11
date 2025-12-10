@@ -3,7 +3,7 @@
 <p>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="GitHub license"></a> 
     <a href="README.md"><img src="https://img.shields.io/badge/Status-Active-brightgreen.svg" alt="Status"></a>
-    <a href="README.md"><img src="https://img.shields.io/badge/Platform-Termux%20%7C%20Linux-yellow.svg" alt="Platform"></a>
+    <a href="README.md"><img src="https://img.shields.io/badge/Platform-Termux-yellow.svg" alt="Platform"></a>
 </p>
 
 <p>⚡ A simple Termux tool to install Termux X11 GUI, all automatically with one script.</p>
